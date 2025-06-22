@@ -40,7 +40,7 @@ export const getAddresses = (network: string): Addresses => {
     case "unit0":
       return {
         Gelato: "0x62c8aCc91b488F5749D8e43C7711eDf76841b206",
-        UniswapV3Factory: "0x890E8c24bB8b9b7CfE42224D1910Bd3F30351610",
+        UniswapV3Factory: "0xcF3Ee60d29531B668Ae89FD3577E210082Da220b",
         ArrakisFeeTreasury: "0x62c8aCc91b488F5749D8e43C7711eDf76841b206",
       };
     default:
