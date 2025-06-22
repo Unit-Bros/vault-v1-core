@@ -56,6 +56,11 @@ const config: HardhatUserConfig = {
       chainId: 5,
       url: `https://eth-goerli.alchemyapi.io/v2/${ALCHEMY_ID}`,
     },
+    unit0: {
+      accounts: PK ? [PK] : [],
+      chainId: 88811,
+      url: "https://rpc.unit0.dev",
+    },
   },
 
   solidity: {

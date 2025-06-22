@@ -37,6 +37,12 @@ export const getAddresses = (network: string): Addresses => {
         UniswapV3Factory: "0x1F98431c8aD98523631AE4a59f267346ea31F984",
         ArrakisFeeTreasury: "",
       };
+    case "unit0":
+      return {
+        Gelato: "0x62c8aCc91b488F5749D8e43C7711eDf76841b206",
+        UniswapV3Factory: "0x890E8c24bB8b9b7CfE42224D1910Bd3F30351610",
+        ArrakisFeeTreasury: "0x62c8aCc91b488F5749D8e43C7711eDf76841b206",
+      };
     default:
       throw new Error(`No addresses for Network: ${network}`);
   }
